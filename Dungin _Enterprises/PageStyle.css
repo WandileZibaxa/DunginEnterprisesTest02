@@ -10,13 +10,14 @@
 
 
 .comLogo{
-    height: 350px;
-    width: 350px;
+    height: 550px;
+    width: 550px;
     border-radius: 50%;
+
 }
 
 .logoDiv{
-    padding-left: 500px;
+    padding-left: 400px;
 }
 
 
@@ -75,7 +76,7 @@
       background: url('https://source.unsplash.com/1600x600/?business,office') center/cover no-repeat;
       color: white;
       text-align: center;
-      padding: 100px 20px;
+      padding: 30px 20px;
     }
 
     .hero h2 {
@@ -120,4 +121,9 @@
 
     footer p {
       font-size: 0.9em;
+    }
+
+
+    .findthis{
+      color: black;
     }
