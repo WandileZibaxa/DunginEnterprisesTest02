@@ -1,0 +1,123 @@
+.logo{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.socialLogo{
+    border-radius: 50%;
+    height: 50px;
+}
+
+
+.comLogo{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.logoDiv{
+    padding-left: 500px;
+}
+
+
+
+
+
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #0077b6;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background: #023e8a;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 14px 20px;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background: #0077b6;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?business,office') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .about, .services, .contact {
+      margin-bottom: 60px;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .service:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer p {
+      font-size: 0.9em;
+    }
